@@ -1,0 +1,311 @@
+body {
+        background-color: black;
+        margin: 40px 32px;
+        padding: 0;
+}
+
+.navbox {
+        
+        display: flex;
+        margin-bottom: 25px;
+        background-color: #F5F5F5;
+        margin-top: 1.5cm;
+        margin-left: 1.5cm;
+        margin-right: 1.5cm;
+        margin-bottom: 0;
+        
+        column-gap: 16px;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'PT Serif', serif;
+}
+
+.contentbox {
+        display: flex;
+        margin-bottom: 25px;
+        background-color: #B9F9E5;
+        margin-top: 0;
+        margin-left: 1.5cm;
+        margin-right: 1.5cm;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'PT Serif', serif;
+}
+.links {
+        display: flex;
+        margin: 0;
+        column-gap: 25px;
+
+}
+
+.subcontainer {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        background-color: white;
+        margin: 0;   
+        height: 15cm;
+        align-items: center;
+        justify-content: center;     
+}
+.subcontainer2 {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        background-color: #B9F9E5;
+        margin: 0;
+        height: 15cm;
+        font-family: 'PT Serif', serif;
+
+}
+
+.subcontainer3 {
+        display: flex;
+        background-color: #B9F9E5;
+        margin: 0;
+        height: 15cm;
+        font-family: 'PT Serif', serif;
+}
+
+/* CONTENIDO EXTRA MAIN */
+.Imagen {
+        display: flex;
+        background: #D9D9D9;
+        height: 300px;
+        width:  300px;
+        border-radius: 150px;
+        align-items: center;
+        justify-content: center;  
+}
+
+.imgPerfil {
+        border-radius: 60px;
+}
+
+.Textcontent {
+        margin-left: 2cm;
+        margin-top: 3.7cm;
+        margin-right: 2cm;
+        margin-bottom: 2cm; 
+        font-size: larger;
+}
+
+.RedesIcons {
+        display: flex;
+        margin-top: 25px;
+        width:  250px;
+        align-self: center;
+        justify-content: space-around;
+        align-items: center;
+        
+}
+
+.RedesIcons2 {
+        display: flex;
+        margin-top: 25px;
+        width:  250px;
+        align-self: center;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2px;        
+}
+
+.p2Tittle {
+        display: flex;
+        background-color: white;
+        justify-content: center;  
+        width: 100%;
+        height: 90px;
+        padding-top: 20px;
+        
+}
+
+.p2Tittle2 {
+        display: flex;
+        font-size: 25px;
+        justify-content: center;  
+        width: 100%;
+        height: 90px;
+        padding-top: 20px;
+        
+}
+
+
+/* CONTENIDO P2 */
+.BOXCONTENT {
+        margin-bottom: 25px;
+        background-color: #B9F9E5;
+        margin-top: 0;
+        margin-left: 1.5cm;
+        margin-right: 1.5cm;
+        height: 15cm;
+        
+}
+
+.p2Content{
+        display: flex;
+        justify-content: center; 
+        font-family: 'PT Serif', serif; 
+
+}
+
+.p2contenedor{
+        display: flex;
+        justify-content: space-between;  
+        width: 900px;
+        margin-top: 1.5cm;
+}
+
+.p3contenedor{
+        display: flex;
+        justify-content: center;  
+        width: 900px;
+}
+
+.p2linea {
+        background-color: white;
+        width: 10px;
+        height: 120%;
+}
+
+
+/* CARRUCEL */
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .carrousel{
+        width: 100%;
+    }
+    
+    .conteCarrousel{
+        width: 100%;
+        height: 375px;
+        overflow: hidden;
+    }
+    
+    .itemCarrousel{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .itemCarrouselTarjeta{
+        width: 100%;
+        height: 100%;
+    }
+    .textomargen {
+        padding-left: 15px;
+    }
+    
+    .itemCarrouselArrows{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px; 
+    }
+    
+    .itemCarrouselArrows > i:hover {
+        cursor: pointer;
+    }
+    
+    #itemCarrousel-1{
+        background-color: white;
+    }
+    
+    #itemCarrousel-2{
+        background-color: white;
+    }
+    
+    #itemCarrousel-3{
+        background-color: white;
+    }
+    
+    .conteCarrouselController{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .conteCarrouselController > a{
+        text-decoration: none;
+        font-size: 2em;
+        color: grey;
+    }
+    
+    .itemCarrouselArrows > a > i{
+        color: white;
+    }
+
+/* CARRUCEL */
+
+/* Blog */
+.BOXCONTENTB {
+        margin-bottom: 25px;
+        background-color: #B9F9E5;
+        margin-top: 0;
+        margin-left: 1.5cm;
+        margin-right: 1.5cm;
+        height: 1200px;
+}
+.Indice{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+
+.post-content {
+        background-color: white;
+        width: 900px;
+        height: 900px;
+        gap: 25px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 2%;
+}
+
+.post-encabezado {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        gap: 10%;
+        background-color: #88cbe6;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        
+}
+.titulopost {
+        font-size: 35px;
+}
+
+
+.content {
+        display: flex;
+        justify-content: center;
+      
+}
+
+.infopost{
+        width: 450px;
+}
+
+.textopost {
+        margin-top: 30px;
+
+}
